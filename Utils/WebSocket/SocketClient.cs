@@ -7,7 +7,6 @@ namespace Utils.Web_Socket {
     public class SocketClient {
         static Byte[] _receiveBytes;
         static IPEndPoint _RemoteIpEndPoint;
-
         private void Connect(string IP, int Port) {
             UdpClient receivingUdpClient = new UdpClient(Port);
             IPEndPoint EP = new IPEndPoint(IPAddress.Parse(IP), Port);
