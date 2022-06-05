@@ -1,6 +1,6 @@
 <div align="center">
-	<h1>Item Searcher</h1>
-	<p>Item Searcher is primarily an early-stage interactive application</p>
+	<h1>Utils</h1>
+	<p>Utils is primarily an early-stage Utility Class</p>
 
 </div>
 
