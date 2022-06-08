@@ -1,25 +1,32 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace Utils.Windows {
     public class Forms {
         #region Message Box Error
             public static void MessageBox_Error_OK(string Title, string Message) {
                 MessageBox.Show(Message, Title, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Environment.Exit(0);
             }
             public static void MessageBox_Error_OK_Cancel(string Title, string Message) {
                 MessageBox.Show(Message, Title, MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                Environment.Exit(0);
             }
             public static void MessageBox_Error_Yes_No_Cancel(string Title, string Message) {
                 MessageBox.Show(Message, Title, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error);
+                Environment.Exit(0);
             }
             public static void MessageBox_Error_Retry_Cancel(string Title, string Message) {
                 MessageBox.Show(Message, Title, MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                Environment.Exit(0);
             }
             public static void MessageBox_Error_Yes_No(string Title, string Message) {
                 MessageBox.Show(Message, Title, MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+                Environment.Exit(0);
             }
             public static void MessageBox_Error_Abort_Retry_Ignore(string Title, string Message) {
                 MessageBox.Show(Message, Title, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Error);
+                Environment.Exit(0);
             }
         #endregion
 
