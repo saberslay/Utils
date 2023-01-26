@@ -14,4 +14,4 @@ Visual Studio 2022 is recommended, Utils.
 Start by cloning the repository with `git clone --recursive https://github.com/saberslay/Utils`.
 
 ## The Plan
-The plan for Item Searcher is to create a powerful Utility Class
+The plan for Utils is to create a powerful Utility Class
