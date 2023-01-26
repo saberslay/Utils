@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Twitch\IRC\IrcClient.cs" />
     <Compile Include="WebSocket\SocketClient.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Speech.cs" />
