@@ -2,7 +2,7 @@
 using System.IO;
 using System.Net.Sockets;
 
-namespace Utils.Twitch.IRC {
+namespace Utils.Twitch.IRC_Client {
     public class IrcClient {
         public string userName;
         private string channel;
@@ -28,7 +28,6 @@ namespace Utils.Twitch.IRC {
                 _outputStream.Flush();
             }
             catch (Exception ex) {
-                //Debug.LogError(ex.Message);
                 Logger.LogError(ex.Message);
             }
         }
@@ -39,7 +38,6 @@ namespace Utils.Twitch.IRC {
                 _outputStream.Flush();
             }
             catch (Exception ex) {
-                //Debug.LogError(ex.Message);
                 Logger.LogError(ex.Message);
 
             }
@@ -48,7 +46,6 @@ namespace Utils.Twitch.IRC {
             try {
                 SendIrcMessage(":" + userName + "!" + userName + "@" + userName + ".tmi.twitch.tv PRIVMSG #" + channel + " :" + message);
             } catch (Exception ex) {
-                //Debug.LogError(ex.Message);
                 Logger.LogError(ex.Message);
             }
         }
