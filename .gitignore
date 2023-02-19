@@ -5,6 +5,9 @@
 
 ChatBotGUI/
 
+## Trying to get the api to work before uploading the code
+Utils/API/VRChat
+
 # User-specific files
 *.rsuser
 *.suo
