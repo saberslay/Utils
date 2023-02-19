@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Speech" />
@@ -48,37 +45,11 @@
   <ItemGroup>
     <Compile Include="API\CHatGPT\ChatGPT.cs" />
     <Compile Include="Twitch\IRC\IrcClient.cs" />
-    <Compile Include="API\VRChat\Classes\AvatarResponse.cs" />
-    <Compile Include="API\VRChat\Classes\ConfigResponse.cs" />
-    <Compile Include="API\VRChat\Classes\FavouriteResponse.cs" />
-    <Compile Include="API\VRChat\Classes\NotificationResponse.cs" />
-    <Compile Include="API\VRChat\Classes\PlayerModeratedResponse.cs" />
-    <Compile Include="API\VRChat\Classes\UserBriefResponse.cs" />
-    <Compile Include="API\VRChat\Classes\UserResponse.cs" />
-    <Compile Include="API\VRChat\Classes\WorldBriefResponse.cs" />
-    <Compile Include="API\VRChat\Classes\WorldEnums.cs" />
-    <Compile Include="API\VRChat\Classes\WorldInstanceResponse.cs" />
-    <Compile Include="API\VRChat\Classes\WorldInstanceUserResponse.cs" />
-    <Compile Include="API\VRChat\Classes\WorldMetadataResponse.cs" />
-    <Compile Include="API\VRChat\Classes\WorldResponse.cs" />
-    <Compile Include="API\VRChat\Endpoints\AvatarApi.cs" />
-    <Compile Include="API\VRChat\Endpoints\FavouriteApi.cs" />
-    <Compile Include="API\VRChat\Endpoints\FriendsApi.cs" />
-    <Compile Include="API\VRChat\Endpoints\ModerationsApi.cs" />
-    <Compile Include="API\VRChat\Endpoints\RemoteConfig.cs" />
-    <Compile Include="API\VRChat\Endpoints\UserApi.cs" />
-    <Compile Include="API\VRChat\Endpoints\WorldAPI.cs" />
-    <Compile Include="API\VRChat\Global.cs" />
-    <Compile Include="API\VRChat\Utils.cs" />
-    <Compile Include="API\VRChat\VRChatApi.cs" />
     <Compile Include="WebSocket\SocketClient.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Speech.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Windows\Forms.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
