@@ -2,7 +2,7 @@
 using System.IO;
 using System.Net.Sockets;
 
-namespace Utils.Twitch.IRC_Client {
+namespace Utils.API.Twitch.IRC_Client {
     public class IrcClient {
         public string userName;
         private string channel;

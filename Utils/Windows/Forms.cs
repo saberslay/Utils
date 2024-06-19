@@ -4,7 +4,7 @@ using System.Windows.Forms;
 namespace Utils.Windows {
     public class Forms {
         #region Message Box Error
-            public static void MessageBox_Error_OK(string Title, string Message) {
+            public static void MessageBox_Error_OK(String Title, String Message) {
                 MessageBox.Show(Message, Title, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Environment.Exit(0);
             }
